@@ -1,0 +1,74 @@
+.navbar
+{
+	background-color: #262626;
+	color: green;
+}
+
+.nav-link
+{
+	color: #3bff3b;
+}
+
+.nav-link:hover
+{
+	color: white;
+}
+
+.logo
+{
+	color: #3bff3b;
+	font-weight: bold;
+	
+}
+
+.logo:hover
+{
+	color: white;
+}
+
+.bcg
+{
+	float: left;
+	margin-top: 70px;
+	width: 550px;
+	height: 300px;
+	color: #3bff3b;
+}
+
+.card 
+{
+	width: 320px;
+	height: 350px;
+	float: right;
+}
+
+.card-body
+{
+	background-color: #262626;
+}
+
+.card-title
+{
+	color: #3bff3b;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+	.bcg
+	{
+		margin-left: -20px;
+		margin-top: -25px;
+	}
+	.card
+	{
+		float: left;
+		margin-left: 10px;
+	}
+}
+
+hr.line
+{
+	border-top: 1px solid #3bff3b;
+}
+
